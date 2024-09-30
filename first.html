@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id = "wrapper">
+    <div id = "topbar">
+        <h1 id = "h1">Products</h1>
+    </div>
+    <div id="grocery-list" style="display: flex; flex-wrap: wrap;"></div>
+    <div id = "footer">© Designed By Suraj</div>
+    
+    <div class="modal-background" id="modal">
+        <div class="modal-box">
+            <i id = "ff" class="fa-solid fa-close"></i>
+
+            <div id = "one">
+            <h2>Buy?</h2>
+            <img width="100" id = "img2">
+            <p id = "p1">This is a centered dialog box.</p>
+            <h1 id = "price"></h1>
+            <button class="close-btn" id = "pay">PAY FAST</button>
+            </div>
+
+            <div class="success-animation" id = "two">
+                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" /><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /></svg>
+                </div>
+        </div>
+    </div>
+    </div>
+    <script src="first.js"></script>
+</body>
